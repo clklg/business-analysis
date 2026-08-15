@@ -1,1 +1,2 @@
+*.db filter=lfs diff=lfs merge=lfs -text
 sql/olist.db filter=lfs diff=lfs merge=lfs -text
