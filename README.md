@@ -253,29 +253,23 @@ olist-marketing-analysis/
 ├── notebooks/
 │   └── marketing_funnel_retention_analysis.ipynb
 ├── sql/
-│   ├── 01_database_validation.sql
-│   ├── 02_marketing_funnel.sql
-│   └── 03_customer_retention.sql
+│   ├── olist.sql
 ├── images/
 │   ├── channel_performance.png
 │   ├── conversion_trend.png
 │   └── retention_cohorts.png
 ├── README.md
 ├── requirements.txt
-└── .gitignore
 ```
-
-The raw CSV files and SQLite database are not included in the repository. The notebook expects a local SQLite database path to be configured before execution.
 
 ---
 
 # Running the Analysis
 
 1. Clone or download the repository.
-2. Create the SQLite database from the Olist source CSV files.
-3. Configure the database path in the analysis notebook.
-4. Install the required Python packages.
-5. Open the notebook and use **Restart Kernel → Run All** to reproduce the analysis.
+2. Configure the database path in the analysis notebook.
+3. Install the required Python packages.
+4. Open the notebook and use **Restart Kernel → Run All** to reproduce the analysis.
 
 Example dependencies:
 
