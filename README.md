@@ -248,8 +248,6 @@ These decisions were made in the analysis rather than altering the underlying so
 
 ```text
 olist-marketing-analysis/
-├── data/
-│   └── README.md
 ├── notebooks/
 │   └── marketing_funnel_retention_analysis.ipynb
 ├── sql/
